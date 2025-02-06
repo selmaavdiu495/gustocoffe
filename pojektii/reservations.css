@@ -1,0 +1,94 @@
+#sa-reservations {
+    padding: 60px 0;
+    background-color: #ede0d4;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+#sa-reservations .sa-ng-header {
+    font-size: 40px;
+    color: #504f2c;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#sa-reservations p {
+    font-size: 18px;
+    color: #7f8c8d;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 40px;
+}
+.sa-back-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #451e03;
+    font-weight: bold;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto; 
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.mb-3 {
+    margin-bottom: 20px;
+}
+
+.sa-form-label {
+    font-size: 18px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.sa-form-control {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease; 
+}
+
+.sa-form-control:focus {
+    border-color: #3498db; 
+    outline: none; 
+}
+
+.sa-btn[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.sa-btn[type="submit"]:hover {
+    background-color: #2980b9; 
+}
+
+@media (max-width: 767px) {
+    #sa-reservations {
+        padding: 40px 20px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    .sa-btn[type="submit"] {
+        width: 100%; 
+    }
+}
+

@@ -1,0 +1,96 @@
+#sherbimet {
+    font-family: 'Arial', sans-serif;
+}
+
+.sa-services {
+    padding: 60px 20px;
+    background-color: #f8f1eb; 
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.sa-header {
+    font-size: 32px;
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: inline-block;
+}
+
+.sa-header::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #3498db;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.sa-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sa-list-item {
+    font-size: 18px;
+    color: #444;
+    font-weight: 500;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.sa-list-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+.sa-back-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #451e03;
+    font-weight: bold;
+}
+
+.sa-list-item::before {
+    content: "\f0f4"; 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 20px;
+    color: #e67e22;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+@media (max-width: 767px) {
+    .sa-services {
+        padding: 40px 15px;
+    }
+
+    .sa-header {
+        font-size: 28px;
+    }
+
+    .sa-list-item {
+        font-size: 16px;
+        padding: 12px 15px;
+    }
+}

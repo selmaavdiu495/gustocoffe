@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="reservations.css">
+</head>
+<body id="sa-reservations">
+    <a href="index.html" class="sa-back-link">Kthehu te Ballina</a> 
+<section id="sa-reservations" class="sa-container mt-5">
+    <h2 class="sa-ng-header">Rezervimet</h2>
+    <p>Rezervoni një tavolinë për një eksperiencë të paharrueshme!</p>
+    <form>
+      <div class="mb-3">
+        <label for="sa-nameReservation" class="sa-form-label">Emri</label>
+        <input type="text" class="sa-form-control" id="sa-nameReservation" required>
+      </div>
+      <div class="mb-3">
+        <label for="sa-emailReservation" class="sa-form-label">Email</label>
+        <input type="email" class="sa-form-control" id="sa-emailReservation" required>
+      </div>
+      <div class="mb-3">
+        <label for="sa-dateReservation" class="sa-form-label">Data dhe Koha</label>
+        <input type="datetime-local" class="sa-form-control" id="sa-dateReservation" required>
+      </div>
+      <button type="submit" class="sa-btn">Rezervo</button>
+    </form>
+</section>
+</body>
+</html>

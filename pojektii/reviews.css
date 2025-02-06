@@ -1,0 +1,57 @@
+#sa-reviews {
+    padding: 50px 0;
+    background-color: #ede0d4; 
+    font-family: 'Arial', sans-serif; 
+}
+
+#sa-reviews .sa-ng-header {
+    text-align: center;
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    color: #333;
+    margin-bottom: 25px;
+    letter-spacing: 1px; 
+}
+
+#sa-reviews .sa-lead {
+    text-align: center;
+    font-size: 1.2rem; 
+    color: #555; 
+    margin-bottom: 40px;
+}
+
+.sa-testimonial {
+    background-color: white;
+    border-left: 5px solid #5cb85c; 
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    min-height: 150px; 
+}
+
+.sa-testimonial p {
+    font-size: 1.1rem;
+    color: #444; 
+    font-style: italic;
+    margin-bottom: 15px;
+    text-align: center; 
+}
+
+.sa-testimonial p:last-child {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center; 
+    margin-top: 10px;
+}
+.sa-back-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #451e03;
+    font-weight: bold;
+}

@@ -1,0 +1,84 @@
+#sa-menu {
+    background-color: #fff;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    text-align: center;
+}
+
+#sa-menu .sa-ng-header {
+    font-size: 2.5rem;
+    color: #4a2c2a; 
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.sa-back-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #451e03;
+    font-weight: bold;
+}
+
+.sa-table {
+    width: 85%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #f5e6d9; 
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid #c9a97c; 
+}
+
+.sa-table th {
+    background-color: #8b5e3b; 
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sa-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.sa-table tr:nth-child(even) {
+    background-color: #ede0d4; 
+}
+
+.sa-table tr:hover {
+    background-color: #d4b8a5;
+    transition: 0.3s ease-in-out;
+}
+
+.sa-table td:nth-child(2) {
+    font-weight: bold;
+    color: #000; 
+}
+
+@media (max-width: 768px) {
+    .sa-table {
+        width: 100%;
+    }
+
+    .sa-table th, .sa-table td {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    #sa-menu .sa-ng-header {
+        font-size: 2rem;
+    }
+}

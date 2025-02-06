@@ -1,0 +1,114 @@
+#sa-blog {
+  padding: 60px 0;
+  background-color: #ede0d4;
+  border-radius: 10px;
+}
+
+#sa-blog .sa-ng-header {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#sa-blog .sa-lead {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sa-blog .sa-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 35px;
+  overflow: hidden;
+  background: white;
+}
+
+#sa-blog .sa-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+#sa-blog .sa-card-img-top {
+  width: 100%;
+  aspect-ratio: 16/9; 
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+#sa-blog .sa-card-body {
+  padding: 22px;
+  background-color: white;
+  border-radius: 0 0 12px 12px;
+}
+
+#sa-blog .sa-card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+
+#sa-blog .sa-card-text {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+#sa-blog .sa-card-text strong {
+  font-weight: bold;
+  color: #333;
+}
+
+
+#sa-blog .sa-btn-primary {
+  background-color: #5cb85c;
+  border: none;
+  font-size: 1rem;
+  padding: 10px 24px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+#sa-blog .sa-btn-primary:hover {
+  background-color: #4cae4c;
+}
+.sa-back-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #451e03;
+  font-weight: bold;
+}
+
+
+@media (max-width: 992px) {
+  #sa-blog .sa-card-img-top {
+    aspect-ratio: 16/10; 
+  }
+}
+
+@media (max-width: 768px) {
+  #sa-blog .sa-card {
+    margin-bottom: 30px;
+  }
+
+  #sa-blog .sa-card-img-top {
+    aspect-ratio: 4/3; 
+  }
+}
+
